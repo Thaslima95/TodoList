@@ -4,10 +4,6 @@
   font-family: sans-serif;
 }
 
-.complete {
-  text-decoration: line-through;
-}
-
 .App {
   min-height: 100vh;
   display: flex;
@@ -24,13 +20,6 @@
   align-items: center;
   margin-bottom: auto;
   margin-bottom: 0rem;
-  margin-top: 2rem;
-}
-
-.elements {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   margin-top: 2rem;
 }
 
@@ -68,11 +57,6 @@ input {
   padding: 9px;
 }
 
-/* .todoitem button {
-  font-size: 120%;
-  background-color: inherit;
-  border: 0;
-} */
 .Todo {
   display: flex;
   justify-content: space-between;
@@ -93,6 +77,6 @@ input {
 .TodotextWrapper {
   background: #1a1a40;
   margin-top: 1rem;
-  padding: 0.2rem;
+  padding: 0.1rem;
   border-radius: 5px;
 }
